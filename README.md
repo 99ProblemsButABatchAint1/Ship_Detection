@@ -1,7 +1,7 @@
 # 🚢 Ship Detection
 
-> **VITMAV45 – Deep Learning in Practice with Python and LUA**  
-> *Major Term Project – Airbus Ship Detection Challenge (Kaggle)*
+> **VITMAV45 – Deep Learning a gyakorlatban Python és LUA alapon**  
+> *Nagy házi feladat projekt – Airbus Ship Detection Challenge (Kaggle)*
 
 ---
 
@@ -19,7 +19,7 @@ For this milestone, our objectives are:
 
 ## 👥 Team Information
 
-**Team name: 99_Problems_but_a_Batch_Aint_One**
+Team name: 99_Problems_but_a_Batch_Aint_One
 
 | Name | Neptun Code | Role |
 |------|--------------|------|
