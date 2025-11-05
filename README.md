@@ -56,11 +56,11 @@ Through this milestone, we:
 
 You can open the project directly in **Google Colab** by clicking the button below:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/99ProblemsButABatchAint1/Ship_Detection/blob/main/ship_detection_work_notebook.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/99ProblemsButABatchAint1/Ship_Detection/blob/main/milestone1.ipynb)
 
 Alternatively, you can clone the repository and run the notebook locally:
 
 ```bash
 git clone https://github.com/99ProblemsButABatchAint1/Ship_Detection.git
 cd Ship_Detection
-jupyter notebook ship_detection_work_notebook.ipynb
+jupyter notebook milestone1.ipynb
