@@ -1,4 +1,41 @@
+# ===== Kaggle & datasets =====
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.csv
+*.npy
+*.npz
+*.h5
+*.pt
+*.pkl
+*.model
+*.weights
+
+# Entire dataset directories
 data/
-data/
+dataset/
+datasets/
+input/
+train/
+test/
+images/
+output/
+
+# Kaggle API token
+.kaggle/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary files and OS stuff
 __pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Colab / VSCode / Environment files
+.env
 *.log
+.vscode/
+
