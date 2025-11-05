@@ -1,7 +1,7 @@
 # 🚢 Ship Detection
 
-> **VITMAV45 – Deep Learning a gyakorlatban Python és LUA alapon**  
-> *Nagy házi feladat projekt – Airbus Ship Detection Challenge (Kaggle)*
+> **VITMAV45 – Deep Learning in Practice with Python and LUA**  
+> *Major Term Project – Airbus Ship Detection Challenge (Kaggle)*
 
 ---
 
