@@ -43,12 +43,16 @@ Through this milestone, we:
 
 ## 📂 Repository Structure
 
-| File | Description |
-|------|--------------|
-| `ship_detection_work_notebook.ipynb` | Main Jupyter Notebook containing the data download, exploration, and preprocessing steps. |
-| `ship_detection_work_notebook` | Backup or alternate version of the notebook. |
-| `README.md` | Project documentation (this file). |
+| File / Folder | Description |
+|----------------|--------------|
+| `.ipynb_checkpoints/` | Automatically created folder by Jupyter to store notebook checkpoints. |
+| `.DS_Store` | macOS system file that stores folder view preferences (can be ignored). |
+| `.gitignore` | Specifies files and directories (e.g., dataset) to be ignored by Git. |
 | `LICENSE` | Project license (GPL-3.0). |
+| `README.md` | Project documentation (this file). |
+| `milestone1.ipynb` | Main Jupyter Notebook for **Milestone 1** – includes data download, exploration, visualization, and preprocessing steps. |
+| `ship_detection_work_notebook.ipynb` | Earlier version of the notebook used during initial exploration and testing. |
+| `ship_detection_work_notebook` | Backup or alternate version of the notebook without extension. |
 
 ---
 
