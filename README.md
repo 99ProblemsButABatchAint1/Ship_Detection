@@ -46,13 +46,13 @@ Through this milestone, we:
 | File / Folder | Description |
 |----------------|--------------|
 | `.ipynb_checkpoints/` | Automatically created folder by Jupyter to store notebook checkpoints. |
-| `.DS_Store` | macOS system file that stores folder view preferences (can be ignored). |
 | `.gitignore` | Specifies files and directories (e.g., dataset) to be ignored by Git. |
 | `LICENSE` | Project license (GPL-3.0). |
 | `README.md` | Project documentation (this file). |
-| `milestone1.ipynb` | Main Jupyter Notebook for **Milestone 1** – includes data download, exploration, visualization, and preprocessing steps. |
-| `ship_detection_work_notebook.ipynb` | Earlier version of the notebook used during initial exploration and testing. |
-| `ship_detection_work_notebook` | Backup or alternate version of the notebook without extension. |
+| `notebooks/` | Folder containing all Jupyter notebooks used in the project. |
+| ├── `milestone1.ipynb` | Main notebook for Milestone 1 – includes data download, exploration, visualization, and preprocessing steps. |
+| ├── `ship_detection_work_notebook.ipynb` | Earlier version of the notebook used during initial exploration and testing. |
+| └── `ship_detection_work_notebook` | Backup or alternate version of the notebook without extension. |
 
 ---
 
@@ -60,11 +60,11 @@ Through this milestone, we:
 
 You can open the project directly in **Google Colab** by clicking the button below:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/99ProblemsButABatchAint1/Ship_Detection/blob/main/milestone1.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/99ProblemsButABatchAint1/Ship_Detection/blob/main/notebooks/milestone1.ipynb)
 
 Alternatively, you can clone the repository and run the notebook locally:
 
 ```bash
 git clone https://github.com/99ProblemsButABatchAint1/Ship_Detection.git
-cd Ship_Detection
+cd Ship_Detection/notebooks
 jupyter notebook milestone1.ipynb
