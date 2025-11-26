@@ -30,8 +30,8 @@ Team name: 99_Problems_but_a_Batch_Aint_One
 | Name | Neptun Code | Role |
 |------|--------------|------|
 | **Bologa Eduard** | DAM4AV | Documentation, GitHub repository integration, model evaluation visualizations, training workflow polishing |
-| **Kozma Szabolcs András** | TKGQWN | GitHub repository setup, data preprocessing, efficient data loading, training loop implementation, loss & metric functions |
-| **Pünkösti Györk** | VCV3N5 | Kaggle integration, data visualization, model evaluation visualizations, UNet training workflow polishing |
+| **Kozma Szabolcs András** | TKGQWN | GitHub repository setup, data preprocessing, efficient data loading, loss & metric functions |
+| **Pünkösti Györk** | VCV3N5 | Kaggle integration, data visualization, model evaluation visualizations, UNet training |
 
 ---
 
@@ -105,7 +105,7 @@ cd Ship_Detection/notebooks
 jupyter notebook milestone2.ipynb
 ```
 
-📜 License
+## 📜 License
 
 This project is licensed under the GNU General Public License v3.0.
 See the LICENSE file for details.
