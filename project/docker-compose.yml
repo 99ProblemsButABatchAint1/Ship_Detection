@@ -1,11 +1,25 @@
 services:
+  # ----------------------------
+  # Backend Service (FastAPI)
+  # ----------------------------
   backend:
     build:
       context: ./backend
       dockerfile: Dockerfile
     ports:
       - "8000:8000"
+    volumes:
+      # Maps your local backend folder to the container for hot-reloading
+      - ./backend:/app
+      # Prevent the container's venv/pycache from overwriting yours
+      - /app/__pycache__
+    environment:
+      - PORT=8000
+    restart: always
 
+  # ----------------------------
+  # Frontend Service (Vite + React)
+  # ----------------------------
   frontend:
     build:
       context: .
@@ -13,9 +27,12 @@ services:
     ports:
       - "5173:5173"
     volumes:
+      # Maps local folder to container for hot-reloading
       - .:/app
+      # Isolate node_modules so container uses its own Linux binaries
       - /app/node_modules
     environment:
-      - CHOKIDAR_USEPOLLING=true
+      # Tell Vite where the API is
+      - VITE_API_URL=http://localhost:8000
     depends_on:
       - backend

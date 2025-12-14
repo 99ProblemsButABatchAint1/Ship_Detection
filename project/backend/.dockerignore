@@ -1,0 +1,8 @@
+# backend/.dockerignore
+.venv
+venv
+__pycache__
+.git
+.DS_Store
+# If you have large temporary model training data, add it here too
+# Keep 'models' if you need the .pth files for the app to work

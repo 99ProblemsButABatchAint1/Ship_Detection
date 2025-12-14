@@ -1,18 +1,34 @@
-# ===== Kaggle & datasets =====
-*.zip
-*.7z
-*.tar
-*.tar.gz
-*.csv
-*.npy
-*.npz
-*.h5
-*.pt
-*.pkl
-*.model
-*.weights
+# ==========================
+# 1. Node / Frontend
+# ==========================
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# Entire dataset directories
+# ==========================
+# 2. Python / Backend
+# ==========================
+# Virtual Environments (Critical)
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ==========================
+# 3. Data Science & Models
+# ==========================
+# Large datasets
 data/
 dataset/
 datasets/
@@ -22,20 +38,31 @@ test/
 images/
 output/
 
-# Kaggle API token
-.kaggle/
+# Model Weights (Add .pth for PyTorch)
+*.pth
+*.pt
+*.pkl
+*.h5
+*.npy
+*.npz
+*.model
+*.weights
+*.onnx
 
-# Jupyter Notebook checkpoints
+# Jupyter
 .ipynb_checkpoints/
 
-# Temporary files and OS stuff
-__pycache__/
-*.pyc
+# ==========================
+# 4. OS & Editors
+# ==========================
 .DS_Store
 Thumbs.db
-
-# Colab / VSCode / Environment files
-.env
-*.log
 .vscode/
+.idea/
+*.swp
 
+# ==========================
+# 5. Environment Secrets
+# ==========================
+# NEVER commit this file
+.env
