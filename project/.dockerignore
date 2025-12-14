@@ -1,0 +1,28 @@
+# Node / Vite
+node_modules
+dist
+.vite
+.vite-temp
+
+# Python venvs
+backend/.venv
+backend/**/.venv
+.venv
+**/.venv
+
+# Python caches
+**/__pycache__
+**/*.pyc
+
+# Jupyter
+**/.ipynb_checkpoints
+
+# Git + OS junk
+.git
+.gitignore
+.DS_Store
+Thumbs.db
+
+# Large datasets (optional – add your real dataset folders here)
+data
+datasets
