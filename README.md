@@ -66,9 +66,9 @@ We implemented several key optimizations to improve performance and training spe
 
 | Metric | Score | Description |
 | :--- | :--- | :--- |
-| **F2 Score** | **0.8950** | (Primary Metric) Harmonic mean of precision and recall, weighing recall higher. |
-| **Precision** | 83.14% | Percentage of predicted ships that are actually ships. |
-| **Recall** | 91.24% | Percentage of real ships that were successfully detected. |
+| **F2 Score** | **0.8977** | (Primary Metric) Harmonic mean of precision and recall, weighing recall higher. |
+| **Precision** | 81.58% | Percentage of predicted ships that are actually ships. |
+| **Recall** | 92.08% | Percentage of real ships that were successfully detected. |
 
 ---
 
