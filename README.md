@@ -85,8 +85,9 @@ We have containerized the application using **Docker** for easy deployment.
 ### Quick Start
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/99ProblemsButABatchAint1/Ship_Detection.git](https://github.com/99ProblemsButABatchAint1/Ship_Detection.git)
-    cd YOUR_REPO
+    git clone https://github.com/99ProblemsButABatchAint1/Ship_Detection.git
+    cd Ship_Detection
+
     ```
 
 2.  **Add Model Weights:**
