@@ -3,7 +3,7 @@
 ### VITMAV45 – Deep Learning in Practice with Python and LUA
 **Major Term Project – Airbus Ship Detection Challenge (Kaggle)**
 
-### **Megajánlott jegyért**
+### **Megajánlott jegyért!**
 
 ---
 
@@ -85,7 +85,7 @@ We have containerized the application using **Docker** for easy deployment.
 ### Quick Start
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO.git](https://github.com/YOUR_USERNAME/YOUR_REPO.git)
+    git clone [https://github.com/99ProblemsButABatchAint1/Ship_Detection.git](https://github.com/99ProblemsButABatchAint1/Ship_Detection.git)
     cd YOUR_REPO
     ```
 
