@@ -3,6 +3,8 @@
 ### VITMAV45 – Deep Learning in Practice with Python and LUA
 **Major Term Project – Airbus Ship Detection Challenge (Kaggle)**
 
+### **Megajánlott jegyért**
+
 ---
 
 ## 📘 Project Overview
