@@ -149,29 +149,8 @@ We have containerized the application using **Docker** for easy deployment.
 │   ├── package-lock.json
 │   ├── public
 │   │   └── vite.svg
-│   ├── README.md
-│   ├── src
-│   │   ├── App.css
-│   │   ├── App.tsx
-│   │   ├── assets
-│   │   │   └── react.svg
-│   │   ├── components
-│   │   │   ├── ControlsPanel.tsx
-│   │   │   ├── Dropzone.tsx
-│   │   │   ├── Header.tsx
-│   │   │   ├── OverlayCanvas.tsx
-│   │   │   ├── PreviewPanel.tsx
-│   │   │   └── StatusBar.tsx
-│   │   ├── index.css
-│   │   ├── lib
-│   │   │   └── detectShips.ts
-│   │   ├── main.tsx
-│   │   └── styles.css
-│   ├── tsconfig.app.json
-│   ├── tsconfig.json
-│   ├── tsconfig.node.json
-│   └── vite.config.ts
 ├── README.md
+├── final_milestone_documentation.pdf
 ├── src
 │   ├── best_classifier.pth
 │   ├── best_ship_segmenter.pth
@@ -195,3 +174,8 @@ We have containerized the application using **Docker** for easy deployment.
 └── weights
     ├── best_classifier.pth
     └── best_ship_segmenter.pth
+
+```
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/99ProblemsButABatchAint1/Ship_Detection/blob/main/notebooks/milestone.ipynb)
+
